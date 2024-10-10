@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .primary-btn{
+        @apply inline-block bg-secondary font-semibold rounded-lg text-white hover:bg-fifth duration-200 shadow-[0px_10px_7px_#F4DEB3] hover:shadow-[0px_10px_7px_#AD49E1] py-2 px-6
+    }
+}
+@layer utilities{
+    .drop-shado {
+        filter: drop-shadow(6px 8px 10px rgba(0,0,0,0.5))
+    }
+}
